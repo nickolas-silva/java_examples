@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.lang.Math;
+
 public class questCatorze {
   private static Scanner scanner = new Scanner(System.in);
   public static void main(String[] args) {
