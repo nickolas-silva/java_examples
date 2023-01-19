@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class questDezesseis{
+public class questDezessete{
   private static Scanner scanner = new Scanner(System.in);
   public static void main(String[] args) {
     System.out.println("Entre com o numero inicial e o final respectivamente: ");

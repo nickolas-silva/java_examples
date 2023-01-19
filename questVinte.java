@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class questVinte{
   private static Scanner scanner = new Scanner(System.in);
-  public static void main(Sting[] args){
+  public static void main(String[] args){
     
   }
 }
