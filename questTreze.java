@@ -13,14 +13,12 @@ public class questTreze {
       System.out.println("O aluno esta APROVADO!");
     if(media < 7 && media >= 3.5) {
       System.out.println("O aluno esta na PROVA FINAL!\n Entre com a nota da prova final: ");
-      float n4 = scanner.nextFloat();
-      double mf = (media * 6 + n4 * 4)/10;
-      if(mf >= 5){
-        System.out.println("O aluno esta aprovado!");
-      }
-      else{
-        System.out.println("O aluno esta reprovado!");
-      }
+      //float n4 = scanner.nextFloat();
+      double nf = ((media * 6)-50);
+      nf = nf * -1;
+      nf = nf /4;
+
+      System.out.println("O aluno precisa tirar " + nf + " na prova final!");
     }
     if(media < 3.5)
       System.out.println("O aluno esta REPROVADO!");

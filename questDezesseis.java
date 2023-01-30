@@ -23,5 +23,6 @@ public class questDezesseis{
     for(int i = numi; i <= numf; i++){
       System.out.printf(i + " ");
     }
+    
   }
 }
