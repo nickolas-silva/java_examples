@@ -50,7 +50,7 @@ public class questTrintatres {
       }
       tempLetra.incrementar();
     }
-
+    
     for (Letra letraitem : letralist.getItems()) {
       System.out.println(letraitem.caractere + " qtd=" + letraitem.qtd);
     }
