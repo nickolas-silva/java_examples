@@ -6,7 +6,7 @@ public class q34 {
 
   public static void main(String[] args) {
     // Entrada de dados:
-    String frase = "bola casa bola";
+    String frase = "estude estude muito";
 
     // Separar e contar palavras:
     String[] arrayPalavras = frase.split(" ");
