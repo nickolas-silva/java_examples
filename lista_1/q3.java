@@ -4,7 +4,7 @@ public class q3 {
   public static void main(String[] args) {
     System.out.println("Digite o primeiro numero: ");
     int num1 = scanner.nextInt();
-    System.out.println("Digite o primeiro numero: ");
+    System.out.println("Digite o segundo numero: ");
     int num2 = scanner.nextInt();
 
     //Operações 
