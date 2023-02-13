@@ -15,6 +15,7 @@ public class q18{
     System.out.println("Digite a senha: ");
     senhau = scanner.next();
     while(!senhau.equals(senha)){
+      System.out.println("Senha INCORRETA!");
       System.out.println("Digite a senha: ");
       senhau = scanner.next();
     }

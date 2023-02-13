@@ -16,6 +16,7 @@ public class q26 {
     
     System.out.println("Imprimindo a matriz: \n ");
     imprimirMatriz(mat);
+    System.out.println();
   }
 
   private static void imprimirMatriz(int[][] m) {

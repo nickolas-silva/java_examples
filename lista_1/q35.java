@@ -58,8 +58,8 @@ public class q35 {
       String textoInput = dicionario[i].palavra + " : " + dicionario[i].cont;
       System.out.println(textoInput);
       try{
-        FileWriter fw = new FileWriter(path, true);
-        BufferedWriter conexao = new BufferedWriter(fw);
+        //FileWriter fw = new FileWriter(path, true);
+        BufferedWriter conexao = new BufferedWriter(new FileWriter(path, true));
         conexao.write(textoInput);
         conexao.newLine();
         conexao.close();
