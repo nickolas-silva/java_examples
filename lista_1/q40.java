@@ -3,7 +3,7 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-public class q39_1{
+public class q40{
   //Codificador
   public static void main(String[] args){
     String path = "temp/pCodificar.csv";
