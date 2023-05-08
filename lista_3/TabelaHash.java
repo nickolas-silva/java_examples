@@ -1,11 +1,11 @@
 import java.util.LinkedList;
 
-public class Main {
+public class TabelaHash {
   public static void main(String[] args) {
     HashTable tabela1 = new HashTable(31);
 
-    tabela1.put(0, "eu sou");
     tabela1.put(0, "oi");
+    tabela1.put(0, "eu sou");
     tabela1.put(2, "o goku");
 
     System.out.println("get: " + tabela1.get(0));
